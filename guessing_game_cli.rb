@@ -6,6 +6,6 @@ def run_guessing_game
   elsif  user_input == roll
     return "You guessed the correct number!"
   else user_input != roll
-    return "Sorry! The computer guessed #{roll}."
+    p "Sorry! The computer guessed #{roll}."
   end
 end
