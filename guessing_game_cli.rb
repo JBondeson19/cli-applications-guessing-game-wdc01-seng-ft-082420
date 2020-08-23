@@ -5,6 +5,5 @@ def run_guessing_game
     puts "Goodbye!"
   elsif user_input != roll
     puts "Sorry! The computer guessed #{roll}."
-
   end
 end
