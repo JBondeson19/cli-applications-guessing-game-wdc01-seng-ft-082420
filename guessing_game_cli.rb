@@ -4,8 +4,8 @@ def run_guessing_game
   if user_input == "exit"
     puts "Goodbye!"
   elsif  user_input == roll
-    Print "You guessed the correct number!"
+    puts "You guessed the correct number!"
   else user_input != roll
-    p "Sorry! The computer guessed #{roll}."
+    puts "Sorry! The computer guessed #{roll}."
   end
 end
