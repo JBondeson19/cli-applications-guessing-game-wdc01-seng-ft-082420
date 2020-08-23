@@ -3,7 +3,7 @@ def run_guessing_game
   user_input = gets.chomp#.to_s
   if user_input == "exit"
     puts "Goodbye!"
-  else user_input !== roll
+  else user_input != roll
     puts "Sorry! The computer guessed #{roll}."
   end
 end
