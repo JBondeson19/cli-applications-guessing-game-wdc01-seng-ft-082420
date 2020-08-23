@@ -12,3 +12,4 @@ def run_guessing_game
       puts "Invalid input "
     end 
 end
+run_guessing_game
